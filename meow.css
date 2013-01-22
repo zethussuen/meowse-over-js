@@ -1,0 +1,20 @@
+/*HTML5 CSS Reset*/
+@import url(http://reset5.googlecode.com/hg/reset.min.css);
+
+.example {
+  width: 980px;
+  margin: 10% auto;
+}
+p {
+  text-align: center;
+  color: red;
+}
+
+.meow {
+  min-width: 60px;
+  background: rgba(0,0,0,0.25);
+  position: absolute;
+  top: -20px;
+  left: -30px;
+  margin: 0 auto;
+}
