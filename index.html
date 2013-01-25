@@ -6,13 +6,16 @@
     <link rel="stylesheet" href="meow.css">
     <script type="text/javascript">
       $(function(){
-        $('p[rel="tooltip"]').meowseOver();
+        $('span[rel="tooltip"]').meowseOver();
       });
     </script>
   </head>
   <body>
     <div class="example">
-      <p rel="tooltip" data-title="test">Rats!</p>
+      <p>
+        This is some text. But goddamnit
+        <span rel="tooltip" data-title="test">rats!</span> They got away again!
+      </p>
     </div>
   </body>
 </html>
