@@ -23,7 +23,7 @@
             var src = data.responseData.results[0].tbUrl;
             var width = data.responseData.results[0].tbWidth;
             var height = data.responseData.results[0].tbHeight;
-            $(self).append('<div class="meow popover"><img src="' + src + '"></img></div>').css('width', tbWidth).css('height', tbHeight);
+            $(self).append('<div class="meow popover" style="height: ' + height + '; width=" ' + width + '"><img src="' + src + '"></img></div>')
           });
         }
       },function(){
